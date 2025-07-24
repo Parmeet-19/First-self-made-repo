@@ -1,0 +1,182 @@
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+.pro-nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding:0px 50px;
+    font-size: large;
+    cursor:pointer
+}
+.amrita-hospital-logo{
+    margin-left: 90px;
+    margin-top: 15px;
+    width: 240px;
+}
+.pro-nav-right-container{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.patient-login-wrapper
+{
+    cursor:pointer;
+}
+.booking-assistance{
+    padding:20px;
+    border:2px solid #000000;
+    border-radius:30px;
+    cursor: pointer;
+}
+.booking-assistance:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-color:rgb(114, 30, 210) ;
+}
+.Mainbody{
+list-style-type: none;
+display: flex;
+font-size:18px;
+justify-content : space-between;
+padding: 0px 50px; 
+margin-top: 25px;
+cursor: pointer;
+}
+.Mainbody li:hover::after{
+content:'';
+width:100%;
+display:block;
+background-color: #000000;
+height:2px;
+}
+.wholepage
+{
+    width:100%;
+   
+}
+.subwholepage{ 
+    display:flex;
+    padding:100px 0px 0px 0px;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    justify-content: space-around;
+}
+.firstpart
+{
+    width:20%;
+    
+}
+.firstpart:hover{
+    cursor: pointer;
+    
+}
+.secondpart
+{
+    margin-left: 5%;
+    width:80%;
+    padding:0px 0px 25px 0px;
+    border-bottom : 1px dashed grey;
+}
+.docname::after
+{
+    content:'';
+width:100%;
+display:block;
+background-color: #000000;
+height:2px;
+padding: 0px 5px 0px 10px;
+}
+.heading
+{
+    font-size:30px;
+}
+.subheading
+{
+    padding:20px 0px 20px 0px;
+    font-size:18px;
+    border-bottom: solid 1px black;
+}
+.dc
+{
+   width:60%;
+   height: 50px;
+   border:2px solid #000000;
+  border-radius: 30px;
+}
+.doctorcard
+{
+    display:flex;
+    padding:20px 0px 20px 0px;
+    border-bottom: 2px dashed grey;
+}
+.doctorimg
+{
+  padding:20px 0px 20px 0px;
+  width:230px;
+  
+
+}
+.doctorwritten
+{
+    
+     padding:30px 0px 20px 20px;
+}
+.appointmentbtn
+{
+    width:30%;
+   height: 45px;
+   
+  border-radius: 30px;
+    border:2px solid #000000;
+}
+.aw{
+    padding:10px 0px 0px 20px;
+    font-size: 16px;
+}
+.appointmentbtn:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-color:rgb(210, 30, 129) ;
+}
+.upprfooter
+{
+    display:flex;
+   border-bottom: solid grey;
+    padding:60px 0px 60px 0px;
+}
+.wholefooter
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer{ 
+    background-color: #000000;
+    color: white;
+   } 
+.one{
+ font-size: 22px;
+ justify-content: space-between;
+}
+.nmbers
+{
+    padding: 40px 0px 0px 0px;
+}
+.scndfooter
+{
+    display:flex;
+    justify-content: space-between;
+    padding:100px 0px 80px 0px;
+}
+.lastfooter
+{
+    width:100%;
+    display:flex;
+    padding:0px 0px 40px 0px;
+    border-bottom: solid grey;
+    justify-content: space-between;
+}
